@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html
+xmlns:th="http://www.thymeleaf.org">
+<header></header>
+<body>
+<form th:action="@{/returnName}" method="get">
+Enter your name: <input type ="text" name="name">
+<button type="submit">Submit</button>
+</form>
+<span th:text="${message}"></span>
+</body>
+</html>
